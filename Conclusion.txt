@@ -1,0 +1,19 @@
+Findings from EDA:
+
+Temperature and Hour have a strong correlation with the count of rented bikes.
+
+Dew point temperature is highly positively correlated to the Temperature.
+
+There is a significant drop in the number of rented bikes during Winters(Dec-Feb) because it's freezing cold!
+
+The demand for bikes increases during warmer temperatures,which is why there's maximum count of rented bikes during the Summer season.
+
+In all seasons,the peak demands for rental bikes occur on the opening (8-9 AM) and closing times (6-7pm) of offices and institutions.
+
+Conclusion Based on Model Evaluation:
+
+An adjusted R2 score of 0.91 was obtained.
+
+Temperature and Hour were found to be most influential variables in predicting the hourly demand for rental bikes.
+
+When compared to other models used, decision tree-based models have performed well.
